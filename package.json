@@ -1,6 +1,7 @@
 {
   "name": "pokedex-api",
   "version": "1.0.0",
+  "engines": "12.16.x",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -9,7 +10,6 @@
     "dev": "nodemon server.js"
   },
   "keywords": [],
-  "engines": "",
   "author": "",
   "license": "ISC",
   "dependencies": {
