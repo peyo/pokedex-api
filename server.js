@@ -9,7 +9,7 @@ const app = express();
 
 const morganSetting = process.env.NODE_ENV === "product" ? "tiny" : "common"
 app.use(morgan(morganSetting));
-app.use(helmet.hidePoweredBy({ setTo: "PHP 4.2.0"}));
+app.use(helmet());
 app.use(cors());
 
 const validTypes =
